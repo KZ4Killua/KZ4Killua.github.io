@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+.game {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.header {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.board {
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.keyboard {
+    height: 30%;
+}
+
+.keyboard-row {
+    display: flex;
+    margin: 0 auto 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: lightgray;
+    height: 56px;
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    margin: 0 4px 0 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+#key-enter, #key-delete {
+    width: 40px;
+}
+
+.pattern-g {
+    background-color: rgb(2, 94, 2); 
+    color: white;
+}
+
+.pattern-y {
+    background-color: rgb(168, 168, 1);
+    color: white;
+}
+
+.pattern-a {
+    background-color: gray;
+    color: white;
+}
+
+#reload {
+    color: inherit;
+    text-decoration: inherit;
+}
